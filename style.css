@@ -1,0 +1,120 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+}
+body{
+      background-color:whitesmoke;
+}
+.header-section{
+      display: flex;
+      justify-content: space-between;
+      padding:25px;
+      align-items:center;
+      position: sticky;
+      top:0;
+      background-color: whitesmoke;
+}
+
+.logo img{
+      width: 250px;
+}
+
+.navigation{
+      display:flex;
+      font-size:28px;
+      gap:25px;
+      font-weight: normal;
+}
+.trycloude{
+      background-color: black;
+      color:white;
+      padding:5px;
+      border-radius: 10px;
+}
+
+
+/* Main Section Styling */
+.announecement{
+      text-align: center;
+      border: 1px solid black;
+      width: 140px;
+      margin: auto;
+      padding: 4px;
+      border-radius: 50px;
+}
+
+.intro{
+      font-size: 70px;
+      text-align:center;
+      font-weight: bold;
+}
+
+.main-section{
+      margin:80px;
+}
+.time{
+      text-align:center;
+}
+
+.image img{
+      width:650px;
+      justify-content: center;
+      margin-left:250px
+}
+
+/* content */
+.content{
+      width: 650px;
+      margin: auto;
+      font-size: 20px;
+      margin-left: 320px;
+}
+
+.p1,.p2,.p3,.p4{
+      margin: 25px;
+}
+.title{
+      font-weight: bold;
+}
+
+hr{
+      margin:30px;
+      width:800px;
+      height:3px;
+      background-color:black;
+      margin:auto;
+}
+
+.x img{
+      width:30px;
+}
+
+.social{
+      display:flex;
+      gap:10px;
+      margin-left:200px;
+      margin-top:20px;
+}
+
+/* Footer Styling */
+.footer{
+      background-color: black;
+      display:flex;
+}
+
+.logo2 img{
+      width:200px;
+}
+
+.all-lists{
+      color:white;
+      display:flex;
+      gap:50px;
+      margin-top:30px;
+}
+
+.listone ul li {
+      list-style:none;
+}
